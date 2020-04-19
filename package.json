@@ -1,11 +1,11 @@
 {
   "name": "lint-control",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "control-linting",
   "scripts": {
-    "disable": "./scripts/control-linting --disable",
-    "enable": "./scripts/control-linting --enable",
+    "disable": "./script/control-linting --disable",
+    "enable": "./script/control-linting --enable",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
