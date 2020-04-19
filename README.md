@@ -14,7 +14,7 @@ This tool will exclude linting on files by adding a exclusion rule for that file
 
 ## Use
 
-From your project root run these command to turn eslinting on/off for files in a folder including all subfolders
+From your project _root_ run these command to turn eslinting on/off for files in a folder including all subfolders
 
 ### Disable linting
 
