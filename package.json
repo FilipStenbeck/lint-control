@@ -1,13 +1,13 @@
 {
-  "name": "disable-linting",
-  "version": "1.0.0",
+  "name": "lint-control",
+  "version": "0.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "disable": "./scripts/disable-lint-in-files.sh",
-    "enable": "./scripts/enable-lint-in-files.sh",
+    "disable": "./scripts/control-linting --disable",
+    "enable": "./scripts/control-linting --enable",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC"
+  "license": "MIT"
 }
