@@ -2,11 +2,16 @@
   "name": "lint-control",
   "version": "0.0.3",
   "description": "",
-  "main": "scripts/lint-control",
+  "main": "bin/lint-control",
+  "bin": {
+    "lint-control": "bin/lint-control",
+    "enable": "./bin/lint-control --enable",
+    "disable": "./bin/lint-control --disable"
+  },
   "scripts": {
-    "lint-control": "scripts/lint-control",
-    "disable": "./scripts/lint-control --disable",
-    "enable": "./scripts/lint-control --enable",
+    "lint-control": "bin/lint-control",
+    "disable": "./bin/lint-control --disable",
+    "enable": "./bin/lint-control --enable",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
