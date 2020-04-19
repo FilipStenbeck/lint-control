@@ -1,0 +1,13 @@
+{
+  "name": "disable-linting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "disable": "./scripts/disable-lint-in-files.sh",
+    "enable": "./scripts/enable-lint-in-files.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
