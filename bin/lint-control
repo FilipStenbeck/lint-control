@@ -8,19 +8,21 @@ if [ $# -lt 2 ]
     echo "usage: control-linting [--enable  | --disable] target_folder"
     exit 0
 fi
-echo "first $1     - ---  second $2"
+
 COMMAND=$1
 FOLDER=$2
 PATH_TO_SELF="$(dirname "$0")"
 
+echo $(pwd $PATH_TO_SELF)
+
 if [ $COMMAND = "--enable" ] 
 then
-  echo "Enabling linting on all files in $FOLDER" 
-  $PATH_TO_SELF/enable-lint-in-files.sh $FOLDER
+  echo "Enabling linting on all files in $FOLDER"
+  $PATH_TO_SELF/../lint-control/lib/enable-lint-in-files.sh $FOLDER
 
 elif  [ $COMMAND = "--disable" ]; then
-  echo "Disabling linting on all files in $FOLDER"  
-  $PATH_TO_SELF/disable-lint-in-files.sh $FOLDER
+  echo "Disabling linting on all files in $FOLDER" 
+  $PATH_TO_SELF/../lint-control/lib/disable-lint-in-files.sh $FOLDER
 fi
 
 
