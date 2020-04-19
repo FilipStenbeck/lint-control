@@ -6,8 +6,9 @@ set +x
 if [ $# -lt 2 ]
   then
     echo "usage: control-linting [--enable  | --disable] target_folder"
+    exit 0
 fi
-
+echo "first $1     - ---  second $2"
 COMMAND=$1
 FOLDER=$2
 PATH_TO_SELF="$(dirname "$0")"
