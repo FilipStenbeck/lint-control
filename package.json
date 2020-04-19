@@ -4,16 +4,11 @@
   "description": "",
   "main": "bin/lint-control",
   "bin": {
-    "lint-control": "bin/lint-control",
-    "enable": "./bin/lint-control --enable",
-    "disable": "./bin/lint-control --disable"
+    "lint-control": "bin/lint-control"
   },
   "scripts": {
-    "lint-control": "bin/lint-control",
-    "disable": "./bin/lint-control --disable",
-    "enable": "./bin/lint-control --enable",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint-control": "bin/lint-control"
   },
-  "author": "",
+  "author": "Filip Stenbeck",
   "license": "MIT"
 }
