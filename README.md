@@ -1,12 +1,17 @@
 # Lint Control <img src='https://raw.githubusercontent.com/FilipStenbeck/lint-control/master/assets/policeman.png' height='60' />
 
-Turn off/on eslinting for all files in a folder (including subfolders)
+Turn off/on eslinting for all javascript files in a folder (including subfolders)
 
 ## Why
 
 Sometimes when working with large legacy applications, you want to enable new lint rules gradually through the project. Instead of turning off eslint for whole folders using `ignorePatterns` I find it useful to exclude each file indvidualy. That makes it easier to later turn on and fixing linting in these files one by one.
 
 This tool will exclude linting on files by adding a exclusion rule for that file.
+
+## Prerequisite
+
+- eslint
+- yarn/npm
 
 ## Install
 
