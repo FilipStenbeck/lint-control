@@ -1,6 +1,6 @@
 {
   "name": "lint-control",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "turn eslint off/on for all files in a folder structure",
   "keywords": [
     "eslint",
